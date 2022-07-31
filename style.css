@@ -1,0 +1,311 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    background-image: url(images/donation10.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: relative;
+    top: 100px;
+    height: 90vh;
+    width: 100%;    
+}
+.title{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    width: 45%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#paragraph{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    width: 38%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 5px;
+    color: rgba(240, 248, 255, 0.849);
+}
+.button{
+    text-decoration: none;
+    border-radius: 5px;
+    background:tomato;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.second_title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#middle_line{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 14px;
+    width: 38%;
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+.box{
+    color: rgba(83, 78, 78, 0.904);  
+    display: flex;
+    margin-bottom: 5%; 
+}
+.first{
+    
+    padding: 15px;
+    margin-left:27%;
+    border-radius: 5px;
+    background: rgb(243, 240, 240); 
+    text-align: center;
+    color: rgba(83, 78, 78, 0.904);   
+}
+.second{
+    padding: 15px;
+    margin-left:2%; 
+    border-radius: 5px;
+    background: rgb(243, 240, 240); 
+    text-align: center;
+    color: rgba(83, 78, 78, 0.904);   
+}
+.third{ 
+    padding: 15px;
+    margin-left:2%; 
+    border-radius: 5px;
+    background: rgb(245, 204, 210); 
+    text-align: center;
+    border: solid rgba(231, 113, 148, 0.712);
+    color: rgba(172, 51, 51, 0.904); 
+}
+.fourth{
+   
+    padding: 15px;
+    margin-left:2%; 
+    border-radius: 5px;
+    background: rgb(243, 240, 240) ; 
+    text-align: center;
+    color: rgba(83, 78, 78, 0.904); 
+}
+.fifth{
+   
+    padding: 15px;
+    margin-left:2%; 
+    border-radius: 5px;
+    background: rgb(243, 240, 240); 
+    text-align: center;
+    color: rgba(83, 78, 78, 0.904); 
+}
+#line{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+.new{
+    color: rgb(177, 159, 159);
+    padding-left: 27%;
+    padding-right: 27%;
+    margin-bottom: 3%;
+
+}
+#blank{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.display{
+    display: flex;
+    margin-bottom: 15%;
+    
+}
+.food{
+    background-color: lightblue;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+#detail{
+    text-align: left;
+    color: rgb(128, 128, 128);
+}
+.shelter{
+    background-color: rgb(247, 234, 210);
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+#second_detail{
+    text-align: left;
+    color: rgb(128, 128, 128);
+}
+.education{
+    background-color: rgb(233, 216, 231) ;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5% ;
+}
+#third_detail{
+    text-align: left;
+    color: rgb(128, 128, 128);
+}
+.heading_one{
+    font-size: 20px;
+    font-weight: bold;    
+}
+.heading_two{
+    font-size: 19px; 
+    font-weight: bold;   
+
+}
+.heading_three{
+    font-size: 17px;  
+    font-weight: bold;  
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+.half-width img{
+    width: 80%; 
+    height: 100%;
+    margin-bottom: 10%; 
+}
+.class_one{
+    width: 70%;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+.sample{
+    color: rgb(128, 128, 128);
+    text-align: justify;
+}
+.last{
+    padding: 70px 70px;
+    background-color: rgb(240, 234, 209);
+    margin: 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+label{
+    position: relative;
+    
+}
+input{
+    border: none;
+    padding: 15px;
+    width: 250px;
+    background: lightgray;
+}
+button{
+    border: none;
+    padding: 15px;
+    position: absolute;
+    width: 150px;
+    background: tomato;
+    color: white;
+}
+footer{
+    background:rgba(0, 0, 0, 0.897);
+    padding: 50px 50px;
+}
+.humble{
+   font-family:Lucida Calligraphy;
+   font-weight: solid bold;
+   text-align: center;
+   color: tomato;
+   font-size: 25px;
+   
+}
+.end{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.item img{
+    width: 70%; 
+    height: 70%;
+    position: center;
+    
+}
+.phone img{
+    width: 50%; 
+    height: 50%;
+    position: center;
+    margin-right: 3%;
+    margin-left: 25%;
+}
+.save{
+    color: rgb(128, 128, 128) ;
+}
+.item{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+.phone{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%; 
+} 
+.hotline{
+    text-align: center;
+    color: tomato;
+}
+#queries{
+    text-align: center;
+    color: rgb(128, 128, 128) ;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
